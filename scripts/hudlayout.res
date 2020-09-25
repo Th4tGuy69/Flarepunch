@@ -106,9 +106,9 @@
 		"xpos"					"c-60"	[$WIN32]
 		"xpos"					"c-60"	[$X360]
 		
-		"ypos"					"c96"	[$WIN32]
-		"ypos_minmode"			"c96"	[$WIN32]
-		"ypos"					"c96"	[$X360]
+		"ypos"					"c10"	[$WIN32]
+		"ypos_minmode"			"c10"	[$WIN32]
+		"ypos"					"c10"	[$X360]
 		
 		"wide"					"120"
 		"tall"  				"180"
