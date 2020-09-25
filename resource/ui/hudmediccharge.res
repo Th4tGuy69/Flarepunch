@@ -7,25 +7,25 @@
 	{
 		"visible"		"0"
 	}
-	
+
 	"ChargeLabel"
 	{
 		// Font Name. Found in fonts/fontscheme.res
-		"font"			"Size 42"
+		"font"			"Size 18"
 	
 		// Horizontal Position
-		"xpos"			"c78"
-		"xpos_minmode"	"c78"
+		"xpos"			"c-20"
+		"xpos_minmode"	"c-20"
 		
 		// Vertical Position
-		"ypos"			"c87"
-		"ypos_minmode"	"c87"
+		"ypos"			"c10"
+		"ypos_minmode"	"c10"
 		
 		
 		// MOVE BELOW TO EXTRAS/HUDMEDICCHARGE_EXTRA.RES
 		
-		"wide"			"90"
-		"tall"			"50"
+		"wide"			"40"
+		"tall"			"15"
 		
 		"zpos"			"2"
 		
@@ -37,21 +37,21 @@
 	"IndividualChargesLabel"
 	{
 		// Font Name. Found in fonts/fontscheme.res
-		"font"			"Size 42"
+		"font"			"Size 11"
 	
 		// Horizontal Position
-		"xpos"			"c78"
-		"xpos_minmode"	"c78"
+		"xpos"			"c-10"
+		"xpos_minmode"	"c-10"
 		
 		// Vertical Position
-		"ypos"			"c87"
-		"ypos_minmode"	"c87"
+		"ypos"			"c20"
+		"ypos_minmode"	"c20"
 		
 		
 		// MOVE BELOW TO EXTRAS/HUDMEDICCHARGE_EXTRA.RES
 		
-		"wide"			"90"
-		"tall"			"50"
+		"wide"			"20"
+		"tall"			"20"
 		
 		"zpos"			"2"
 		
@@ -164,8 +164,8 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"	"ResistAnchor"
-		"xpos"	"c140"
-		"ypos"	"c99"
+		"xpos"	"c-10"
+		"ypos"	"c10"
 		"wide"	"22"
 		"tall"	"26"
 		"visible"	"1"
@@ -178,9 +178,9 @@
 		"fieldName"		"ResistIcon"
 		"xpos"			"0"
 		"ypos"			"0"
-		"wide"			"26"
-		"tall"			"26"
-		"zpos"			"3"
+		"wide"			"20"
+		"tall"			"20"
+		"zpos"			"1"
 		"visible"		"1"
 		"visible_minmode"		"0"
 		"enabled"		"1"
