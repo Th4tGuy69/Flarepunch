@@ -305,6 +305,9 @@
 		"pin_corner_to_sibling" "PIN_BOTTOMRIGHT" // Corner of this Element
 		"pin_to_sibling_corner" "PIN_BOTTOMLEFT" // Corner of Element you are pinning to
 	
+		"enabled"		"1"
+		"visible"		"0"
+
 		"xpos"			"5"
 		"ypos"			"0"
 		"zpos"			"10"
@@ -365,13 +368,11 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldname"		"StoreButton"
-		
-		"pin_to_sibling" "SetupButton"
-		"pin_corner_to_sibling" "PIN_BOTTOMLEFT" // Corner of this Element
-		"pin_to_sibling_corner" "PIN_BOTTOMRIGHT" // Corner of Element you are pinning to
-		
-		"xpos"			"5"
-		"ypos"			"0"
+
+		"visible"		"0"	
+
+		"xpos"			"r-10"
+		"ypos"			"r-10"
 		"zpos"			"11"
 		"wide"			"80"
 		"tall"			"70"
@@ -430,13 +431,13 @@
 	// Quit and Disconnect
 	"QuitButton"
 	{
-		"pin_to_sibling" "StoreButton"
+		"pin_to_sibling" "SetupButton"
 		"pin_corner_to_sibling" "PIN_BOTTOMLEFT" // Corner of this Element
 		"pin_to_sibling_corner" "PIN_BOTTOMRIGHT" // Corner of Element you are pinning to
 		
 		"font"			"Size 12"
 		
-		"xpos"			"5"
+		"xpos"			"0"
 		"ypos"			"0"
 		"zpos"			"11"
 		"wide"			"80"
@@ -483,13 +484,13 @@
 	
 	"DisconnectButton"
 	{
-		"pin_to_sibling" "StoreButton"
+		"pin_to_sibling" "SetupButton"
 		"pin_corner_to_sibling" "PIN_BOTTOMLEFT" // Corner of this Element
 		"pin_to_sibling_corner" "PIN_BOTTOMRIGHT" // Corner of Element you are pinning to
 		
 		"font"			"Size 12"
 		
-		"xpos"			"5"
+		"xpos"			"0"
 		"ypos"			"0"
 		"zpos"			"11"
 		"wide"			"80"
@@ -992,13 +993,17 @@
 
 	"FriendsContainer"
 	{
+		"pin_to_sibling" "ServerBrowserButton"
+		"pin_corner_to_sibling" "PIN_TOPLEFT" // Corner of this Element
+		"pin_to_sibling_corner" "PIN_BOTTOMLEFT" // Corner of Element you are pinning to
+
 		"ControlName"	"EditablePanel"
 		"fieldname"		"FriendsContainer"
-		"xpos"			"r210"
-		"ypos"			"r80"
+		"xpos"			"0"
+		"ypos"			"0"
 		"zpos"			"5"
-		"wide"			"210"
-		"tall"			"77"
+		"wide"			"249"
+		"tall"			"130"
 		"visible"		"1"
 
 		//"border"		"QuickplayBorder"
@@ -1024,18 +1029,16 @@
 			"wide"			"f0"
 			"tall"			"f0"
 			"visible"		"1"
-			"proportionaltoparent"	"1"
+			"proportionaltoparent"	"0"
 
 			"columns_count"	"2"
-			"inset_x"		"15"
-			"inset_y"		"5"
 			"row_gap"		"5"
-			"column_gap"	"5"
+			"column_gap"	"10"
 			"restrict_width"	"0"
 
 			"friendpanel_kv"
 			{
-				"wide"		"90"
+				"wide"		"110"
 				"tall"		"20"
 			}
 
@@ -1095,8 +1098,15 @@
 	
 	"BackgroundFooter"
 	{
-		"visible"		"0"
+		"image"			""
+		"border"		"MenuBorderBlack"
+		"xpos"			"-20"
+		"ypos"			"420"
+		"zpos"			"-50"
+		"wide"			"f-50"
+		"tall"			"70"
 	}				
+
 	"FooterLine"
 	{
 		"visible"		"0"
@@ -1120,7 +1130,7 @@
 	// TF2 Options
 	"SettingsButton"
 	{
-		"xpos"			"4"
+		"xpos"			"c-10"
 		"ypos"			"r26"
 		
 		"wide"			"20"
@@ -1199,6 +1209,8 @@
 		"pin_corner_to_sibling" "PIN_BOTTOMLEFT" // Corner of this Element
 		"pin_to_sibling_corner" "PIN_BOTTOMRIGHT" // Corner of Element you are pinning to
 		
+		"visible"		"0"
+
 		"xpos"			"6"
 		"ypos"			"0"
 		
@@ -1234,12 +1246,8 @@
 	// Contracts	
 	"CustomQuest"
 	{
-		"pin_to_sibling" "AchievementsButton"
-		"pin_corner_to_sibling" "PIN_BOTTOMLEFT" // Corner of this Element
-		"pin_to_sibling_corner" "PIN_BOTTOMRIGHT" // Corner of Element you are pinning to
-		
-		"xpos"			"6"
-		"ypos"			"0"
+		"xpos"			"r-10"
+		"ypos"			"r10"
 		
 		"wide"			"20"
 		"tall"			"25"
@@ -1291,9 +1299,9 @@
 	// Streamer Mode
 	"StreamerMode"
 	{
-		"pin_to_sibling" "CustomQuest"
-		"pin_corner_to_sibling" "PIN_BOTTOMLEFT" // Corner of this Element
-		"pin_to_sibling_corner" "PIN_BOTTOMRIGHT" // Corner of Element you are pinning to
+		"pin_to_sibling" "SettingsButton"
+		"pin_corner_to_sibling" "PIN_BOTTOMRIGHT" // Corner of this Element
+		"pin_to_sibling_corner" "PIN_BOTTOMLEFT" // Corner of Element you are pinning to
 		
 		"xpos"			"6"
 		"ypos"			"0"
@@ -1348,12 +1356,8 @@
 	// Create Server	
 	"CreateServerButton"
 	{
-		"pin_to_sibling" "StreamerMode"
-		"pin_corner_to_sibling" "PIN_BOTTOMLEFT" // Corner of this Element
-		"pin_to_sibling_corner" "PIN_BOTTOMRIGHT" // Corner of Element you are pinning to
-		
-		"xpos"			"5"
-		"ypos"			"0"
+		"xpos"			"r-10"
+		"ypos"			"r10"
 		
 		"wide"			"20"
 		"tall"			"25"
@@ -1405,7 +1409,7 @@
 	// REPORT PLAYER
 	"ReportButton"
 	{
-		"pin_to_sibling" "SettingsButton"
+		"pin_to_sibling" "TF2SettingsButton"
 		"pin_corner_to_sibling" "PIN_BOTTOMLEFT" // Corner of this Element
 		"pin_to_sibling_corner" "PIN_TOPLEFT" // Corner of Element you are pinning to
 		
@@ -1461,7 +1465,7 @@
 
 	"VoteButton"
 	{
-		"pin_to_sibling" "TF2SettingsButton"
+		"pin_to_sibling" "SettingsButton"
 		"pin_corner_to_sibling" "PIN_BOTTOMLEFT" // Corner of this Element
 		"pin_to_sibling_corner" "PIN_TOPLEFT" // Corner of Element you are pinning to
 		
@@ -1516,7 +1520,7 @@
 	}
 	"MuteButton"
 	{
-		"pin_to_sibling" "AchievementsButton"
+		"pin_to_sibling" "StreamerMode"
 		"pin_corner_to_sibling" "PIN_BOTTOMLEFT" // Corner of this Element
 		"pin_to_sibling_corner" "PIN_TOPLEFT" // Corner of Element you are pinning to
 		
