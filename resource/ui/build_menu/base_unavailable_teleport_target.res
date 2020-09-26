@@ -41,16 +41,16 @@
 	{
 		"ControlName"	"CIconPanel"
 		"fieldName"		"BuildingIcon"
-		"xpos"			"0"
+		"xpos"			"3"
 		"ypos"			"0"
 		"zpos"			"0"
-		"wide"			"40"
-		"tall"			"40"
+		"wide"			"34"
+		"tall"			"34"
 		"visible"		"1"
 		"enabled"		"1"
 		"scaleImage"	"1"	
 		"icon"			"hud_menu_sentry_build"
-		"iconColor"		"255 255 255 255"
+		"iconColor"		"0 0 0 255"
 	}
 	
 	"CantBuildReason"
@@ -73,7 +73,7 @@
 		"brighttext"	"0"
 		"wrap"			"1"
 		"centerwrap"	"1"
-		"bgcolor_override"	"0 0 0 240"
+		"bgcolor_override"	"0 0 0 0"
 	}
 
 	"ModeLabel"

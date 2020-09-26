@@ -9,11 +9,16 @@
 	
 	"BuildingIcon"	
 	{
-		"icon"			"hud_menu_tele_exit_build"
+		"icon"			"obj_status_tele_exit"
 	}
 	
 	"NumberLabel"
 	{	
 		"labelText"		"4"
+	}
+
+	"CostLabel"
+	{
+		"xpos"			"10"
 	}
 }

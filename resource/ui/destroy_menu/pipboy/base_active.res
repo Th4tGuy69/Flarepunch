@@ -4,6 +4,12 @@
 {
 	"BuildingIcon"	
 	{
-		"iconColor"		"255 255 255 128"
+		"iconColor"		"0 200 0 255"
+	}
+
+	"DestroyIcon"	
+	{
+		"zpos"			"0"
+		"bgcolor_override"	"0 44 0 255"
 	}
 }

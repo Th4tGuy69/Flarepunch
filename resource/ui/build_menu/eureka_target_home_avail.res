@@ -9,7 +9,7 @@
 	
 	"BuildingIcon"	
 	{
-		"icon"			"eureka_teleport_home"
+		"icon"			"obj_status_tele_entrance"
 	}
 	
 	"NumberLabel"

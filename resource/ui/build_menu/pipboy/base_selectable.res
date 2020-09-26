@@ -67,9 +67,10 @@
 		"enabled"		"1"
 		"scaleImage"	"1"	
 		"icon"			"hud_menu_sentry_build"
-		"iconColor"		"255 255 255 255"
+		"iconColor"		"0 200 0 255"
+		"bgcolor_override"	"0 44 0 255"
 	}
-	
+
 	"MetalIcon"	
 	{
 		"ControlName"	"CIconPanel"

@@ -10,6 +10,6 @@
 	
 	"BuildingIcon"	
 	{
-		"icon"			"hud_menu_sentry_build"
+		"icon"			"obj_status_sentrygun_1"
 	}
 }
